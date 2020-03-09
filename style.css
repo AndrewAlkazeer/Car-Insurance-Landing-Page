@@ -255,12 +255,7 @@ opacity: 0;
     left: 0%; /* On click should change to -100% value */
     transition: 0.5s ease-in-out;
 }
-/*
-.img-cont:hover{
-    left: -95.5%;
-    transition: 0.5s ease-in-out;
-}
-*/
+
 .img-cont img:nth-child(1){
     margin-right: 6%;
     margin-left: 6%;
@@ -324,13 +319,6 @@ opacity: 0;
     float: left;
     transition: 0.5s ease-in-out;
 }
-/*
-.p-selections-cont:hover .p-selections-sub-cont{
-    position: relative;
-    left: -102%;
-    transition: 0.5s ease-in-out;
-}
-*/
 
 .third-page-title-cont{
     margin-top: 100px;
@@ -562,11 +550,6 @@ background: white;
     margin-top: 100px;
 }
 
-.reviews-text-cont-sub:hover{
-    left: 0%;
-    transition: 0.5s ease-in;
-}
-
 .reviews-text-cont-sub-1{
     width: 50%;
     float: left;
@@ -637,11 +620,6 @@ margin-top: 50px;
     transition: 0.5s ease-in;
 }
 
-.reviews-img-cont-sub:hover{
-    left: 0%;
-    transition: 0.5s ease-in;
-}
-
 .reviews-img-cont-sub img{
     width: 50%;
     float: left;
@@ -683,4 +661,93 @@ margin-top: 50px;
     top: 50%;
     transform: translate(-50%, -50%);
     color: black;
+}
+
+.h1-btn-cont{
+    margin-top: 150px;
+    padding-bottom: 50px;
+    padding-top: 30px;
+    margin-bottom: 150px;
+}
+
+.h1-btn-cont h1{
+    position: relative;
+    font-family: 'Raleway', sans-serif;
+    font-weight: lighter;
+    text-align: center;
+    font-size: 60px;
+    width: 30%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.h1-btn-cont button{
+    position: relative;
+    width: 150px;
+    height: 50px;
+    background: rgb(0, 119, 230);
+    color: white;
+    font-weight: bolder;
+    font-family: arial;
+    font-size: xx-small;
+    border: none;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 20px;
+}
+
+.footer-cont{
+    background: #EBEDEF;
+    padding-bottom: 40px;
+}
+
+.logo-smedia-cont{
+
+}
+
+.logo-smedia-cont img{
+position: relative;
+left: 50%;
+transform: translateX(-50%);
+margin-top: 60px;
+}
+
+.logo-smedia-cont i{
+    font-size: 20px;
+    color: #5D6D7E;
+    margin-left: 12px;
+    margin-top: 30px;
+}
+
+.fb{
+    margin-left: 60px !important;
+}
+
+.support-cont h1{
+    margin-top: 60px;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: arial;
+    color: black;
+}
+
+.aboutus-cont h1{
+    margin-top: 60px;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: arial;
+    color: black;
+}
+
+.solutions h1{
+    margin-top: 60px;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: arial;
+    color: black;
+}
+
+.en-cont p{
+    margin-top: 60px;
+    text-align: right;
 }
