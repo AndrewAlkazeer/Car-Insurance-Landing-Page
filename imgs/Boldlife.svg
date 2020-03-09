@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="151" height="40" viewBox="0 0 151 40">
+  <defs>
+    <clipPath id="clip-Web_1920_1">
+      <rect width="151" height="40"/>
+    </clipPath>
+  </defs>
+  <g id="Web_1920_1" data-name="Web 1920 – 1" clip-path="url(#clip-Web_1920_1)">
+    <rect width="151" height="40" fill="#fff"/>
+    <path id="Path_1" data-name="Path 1" d="M2.355,4.572C13.291-5.289,20.97.929,21.562,21.987S-8.581,14.434,2.355,4.572Z" transform="translate(34 29.298) rotate(166)" fill="#081dcf"/>
+    <path id="Path_2" data-name="Path 2" d="M5.558.383C20,.708,26.726-4.138,17.524,13.295S-8.882.059,5.558.383Z" transform="translate(10.234 33.891) rotate(-87)" fill="#0180ff"/>
+    <text id="Bold" transform="translate(40 32)" font-size="30" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="0" y="0">Bold</tspan></text>
+    <text id="life" transform="translate(105 32)" font-size="30" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">life</tspan></text>
+  </g>
+</svg>
