@@ -17,7 +17,7 @@ nav img{
     float: left;
     top: 50%;
     transform: translateY(-50%);
-    margin-left: 150px;
+    margin-left: 140px;
 }
 
 nav ul{
@@ -26,7 +26,8 @@ nav ul{
     margin: 0;
     top: 50%;
     transform: translateY(-50%);
-    margin-right: 150px;
+    margin-right: 140px;
+    padding-left: 0;
 }
 
 nav ul li{
@@ -808,6 +809,10 @@ margin-top: 60px;
     }
 
     .price-options-cont{
+    }
+
+    body{
+        background: lightpink !important;
     }
 }
 /* Small Screen Size SM*/
