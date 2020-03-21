@@ -1,0 +1,43 @@
+  .mobile-nav-btn-cont{
+   position: absolute;
+    width: 70px;
+    height: 60px;
+    right: 10%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .one{
+   position: absolute;
+   top: 0;
+   width: 100%;
+   height: 14px;
+   background: black;
+   border-radius: 25px;
+   transition: 0.5s ease-in-out;
+  }
+    .two{
+    position: absolute;
+    width: 100%;
+    height: 14px;
+    top: 50%;
+    background: black;
+    transform: translateY(-50%);
+    border-radius: 25px;
+      transition: 0.5s ease-in-out;
+  }
+    .three{
+    position: absolute;
+    width: 100%;
+    height: 14px;
+    top: 100%;
+    background: black;
+    transform: translateY(-100%);
+    border-radius: 25px;
+    transition: 0.5s ease-in-out;
+  }
+  /*
+  @keyframes nav-anime-one {
+    0%{
+    }
+  }
+  */

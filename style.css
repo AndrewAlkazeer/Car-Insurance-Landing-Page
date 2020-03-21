@@ -812,7 +812,7 @@ margin-top: 60px;
     }
 
     body{
-        background: lightpink !important;
+      /*  background: lightpink !important;*/
     }
 }
 /* Small Screen Size SM*/
@@ -848,6 +848,10 @@ margin-top: 60px;
 }
 /* Extra Small for Mobile Screen XS */
 @media screen and (min-width: 0px) and (max-width: 767px) {
+    nav img{
+        margin-left: 50px;
+    }
+
     .first-page-left button div{
         position: absolute;
         width: 0;
