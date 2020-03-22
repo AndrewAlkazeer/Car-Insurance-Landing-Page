@@ -205,6 +205,14 @@ var one = document.querySelector('.one');
      if(!isClicked && isClosed){
        isClicked = true;
        isClosed = false;
+       mobileCollapseMenuCont.style.left = '0px';
+       var animeMD = 0.3;
+       for(var i = 0; i < mobileCollapseMenuTitle.length; i++){
+           animeMD = animeMD + 0.2;
+        mobileCollapseMenuTitle[i].style.left = '0px';
+        mobileCollapseMenuTitle[i].style.opacity = '1';
+        mobileCollapseMenuTitle[i].style.transitionDelay = `${animeMD}s`;
+       }
       // Stage One Animation
       setTimeout(()=>{
       three.style.top = '100%';
@@ -257,6 +265,14 @@ var one = document.querySelector('.one');
      else{
          isClicked = false;
          isClosed = true;
+         mobileCollapseMenuCont.style.left = '100%';
+       var animeMD = 0.3;
+       for(var i = 0; i < mobileCollapseMenuTitle.length; i++){
+           animeMD = animeMD + 0.2;
+        mobileCollapseMenuTitle[i].style.left = '-100px';
+        mobileCollapseMenuTitle[i].style.opacity = '0';
+        mobileCollapseMenuTitle[i].style.transitionDelay = `${animeMD}s`;
+       }
          // Stage One
          setTimeout(() =>{
          one.style.transform = 'rotate(0deg)';
@@ -287,6 +303,7 @@ var one = document.querySelector('.one');
          }, 900);
        };
     });
+    var mobileCollapseMenuCont = document.querySelector('.mobile-collapse-menu');
     var mobileCollapseMenuTitle = document.querySelectorAll('.mobile-collapse-menu h1');
     var mobileCollapseMenu = document.querySelectorAll('.mobile-collapse-menu div');
     var set1 = document.querySelectorAll('.set-1 p');
