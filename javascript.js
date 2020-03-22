@@ -287,4 +287,109 @@ var one = document.querySelector('.one');
          }, 900);
        };
     });
+    var mobileCollapseMenuTitle = document.querySelectorAll('.mobile-collapse-menu h1');
+    var mobileCollapseMenu = document.querySelectorAll('.mobile-collapse-menu div');
+    var set1 = document.querySelectorAll('.set-1 p');
+    var set2 = document.querySelectorAll('.set-2 p');
+    var set3 = document.querySelectorAll('.set-3 p');
+    var set4 = document.querySelectorAll('.set-4 p');
+    
+    // Navbar mobile and medium screen menu
+
+    // First Choice
+    mobileCollapseMenuTitle[0].addEventListener('click', ()=>{
+        if(mobileCollapseMenu[0].style.height == '0px' || mobileCollapseMenu[0].style.height == ''){
+            for(var z = 0; z < mobileCollapseMenu.length; z++){
+                mobileCollapseMenu[z].style.height = '0';
+               
+            }
+        mobileCollapseMenu[0].style.height = '150px';
+        mobileCollapseMenu[0].style.transition = '0.5s ease-in-out';
+        var animeD = 0.3;
+        for(var i = 0; i < set1.length; i++){
+            animeD = animeD + 0.1;
+            set1[i].style.opacity = '1';
+            set1[i].style.transition = '0.5s ease-in-out';
+            set1[i].style.transitionDelay = `${animeD}s`;
+        }
+    } else if(mobileCollapseMenu[0].style.height == '150px'){
+        mobileCollapseMenu[0].style.height = '0px';
+        for(var z = 0; z < set1.length; z++){
+            set1[z].style.opacity = '0';
+            set1[z].style.transition = '0.1s';
+        }
+    }
+    });
+    // Second Choice
+    mobileCollapseMenuTitle[1].addEventListener('click', ()=>{
+        if(mobileCollapseMenu[1].style.height == '0px' || mobileCollapseMenu[1].style.height == ''){
+            for(var z = 0; z < mobileCollapseMenu.length; z++){
+                mobileCollapseMenu[z].style.height = '0';
+         
+            }
+        mobileCollapseMenu[1].style.height = '150px';
+        mobileCollapseMenu[1].style.transition = '0.5s ease-in-out';
+        var animeD = 0.3;
+        for(var i = 0; i < set2.length; i++){
+            animeD = animeD + 0.1;
+            set2[i].style.opacity = '1';
+            set2[i].style.transition = '0.5s ease-in-out';
+            set2[i].style.transitionDelay = `${animeD}s`;
+        }
+    } else if(mobileCollapseMenu[1].style.height == '150px'){
+        mobileCollapseMenu[1].style.height = '0px';
+        for(var z = 0; z < set1.length; z++){
+            set2[z].style.opacity = '0';
+            set2[z].style.transition = '0.1s';
+        }
+    }
+    });
+    // Third Choice
+    mobileCollapseMenuTitle[2].addEventListener('click', ()=>{
+        if(mobileCollapseMenu[2].style.height == '0px' || mobileCollapseMenu[2].style.height == ''){
+            for(var z = 0; z < mobileCollapseMenu.length; z++){
+                mobileCollapseMenu[z].style.height = '0';
+              
+            }
+        mobileCollapseMenu[2].style.height = '150px';
+        mobileCollapseMenu[2].style.transition = '0.5s ease-in-out';
+        var animeD = 0.3;
+        for(var i = 0; i < set3.length; i++){
+            animeD = animeD + 0.1;
+            set3[i].style.opacity = '1';
+            set3[i].style.transition = '0.5s ease-in-out';
+            set3[i].style.transitionDelay = `${animeD}s`;
+        }
+    } else if(mobileCollapseMenu[2].style.height == '150px'){
+        mobileCollapseMenu[2].style.height = '0px';
+        for(var z = 0; z < set3.length; z++){
+            set3[z].style.opacity = '0';
+            set3[z].style.transition = '0.1s';
+        }
+    }
+    });
+    // Fourth Choice
+    mobileCollapseMenuTitle[3].addEventListener('click', ()=>{
+        if(mobileCollapseMenu[3].style.height == '0px' || mobileCollapseMenu[3].style.height == ''){
+            for(var z = 0; z < mobileCollapseMenu.length; z++){
+                mobileCollapseMenu[z].style.height = '0';
+             
+            }
+        mobileCollapseMenu[3].style.height = '150px';
+        mobileCollapseMenu[3].style.transition = '0.5s ease-in-out';
+        var animeD = 0.3;
+        for(var i = 0; i < set4.length; i++){
+            animeD = animeD + 0.1;
+            set4[i].style.opacity = '1';
+            set4[i].style.transition = '0.5s ease-in-out';
+            set4[i].style.transitionDelay = `${animeD}s`;
+        }
+    } else if(mobileCollapseMenu[3].style.height == '150px'){
+        mobileCollapseMenu[3].style.height = '0px';
+        for(var z = 0; z < set4.length; z++){
+            set4[z].style.opacity = '0';
+            set4[z].style.transition = '0.1s';
+        }
+    }
+    });
 }

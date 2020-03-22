@@ -35,9 +35,50 @@
     border-radius: 25px;
     transition: 0.5s ease-in-out;
   }
-  /*
-  @keyframes nav-anime-one {
-    0%{
-    }
+  /* Navbar mobile and medium collapse menu */
+  .mobile-collapse-menu{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: lightblue;
+    z-index: 3;
   }
-  */
+
+  .mobile-collapse-menu h1{
+    position: relative;
+    font-family: 'Advent Pro', sans-serif;
+    width: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 60px;
+    color: grey;
+    margin-top: 20px; /* with animation should be 20px */
+    text-align: center;
+    cursor: pointer;
+    top: 20%;
+  }
+
+  .mobile-collapse-menu p{
+    position: relative;
+    font-family: 'Advent Pro', sans-serif;
+    width: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 20px;
+    color: grey;
+    margin-top: 10px;
+    text-align: center;
+  }
+
+  .mobile-collapse-menu div{
+    position: relative;
+    background: lightpink;
+    height: 0px;
+    overflow: hidden;
+    transition: 0.5s ease-in-out;
+  }
+
+  .mobile-collapse-menu div p{
+    opacity: 0;
+  }
+

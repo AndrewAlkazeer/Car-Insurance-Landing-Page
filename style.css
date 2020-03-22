@@ -8,7 +8,7 @@ nav{
     position: relative;
     background: white;
     height: 10vh;
-    z-index: 3;
+    z-index: 4;
 }
 
 nav img{
@@ -88,7 +88,6 @@ font-size: 60px;
 color: grey;
 margin-top: 20px; /* with animation should be 20px */
 opacity: 0;
-
 }
 
 .row-menu{
@@ -99,7 +98,6 @@ opacity: 0;
 .menu-sm-cont{
     position: relative;
     margin-top: 300px;
-    
 }
 
 .collapse-menu p{
